@@ -1,3 +1,139 @@
+/* Heading */
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+	color: #8E220A;
+	font-family: 'Source Code Pro', monospace;
+	margin-top: 15%;
+	text-shadow: 1px 1px darkgray;
+}
+
+h2 {
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Source Code Pro', monospace;
+	color: #8E220A;
+	margin-top: 20%;
+	text-shadow: .5px .5px black;
+
+}
+
+h3 {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Source Code Pro', monospace;
+	color: #8E220A;
+}
+
+/* Image in body*/
+
+img {
+	display: block;
+    margin: auto;
+    width: 30%;
+    border: 1px solid #768e0a;
+}
+
+/* Body */
+
 body {
-	background-color: blue;
+	background: linear-gradient(#8E220A, transparent, transparent), url("http://www.publicdomainpictures.net/pictures/140000/velka/landscape-lake-scene.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 30%;
+	background-color: #8E640A;
+}
+
+section {
+	text-align: center;
+	color: #768e0a;
+	font-size: 15px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+/* List Items */
+
+a:link {
+	color: #768e0a;
+	font-size: 20px;
+	font-family: 'Source Code Pro', monospace;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #8E220A;
+}
+
+.like {
+	height: 35%;
+	width: 35%;
+	display: inline-block;
+	margin: auto;
+	list-style-type: none;
+	display: flex;
+}
+
+#fb {
+	position:relative;
+	display: inline-block;
+	padding:10px;
+	height: 7%;
+	width: 7%;
+	margin: auto;
+	list-style-type: none;
+}
+
+#twitter {
+	position:relative;
+	display: inline-block;
+	padding:10px;
+	height: 7%;
+	width: 7%;
+	margin: auto;
+	list-style-type: none;
+}
+
+#github {
+	position:relative;
+	display: inline-block;
+	padding:10px;
+	height: 7%;
+	width: 7%;
+	margin: auto;
+	list-style-type: none;
+}
+
+#email {
+	position:relative;
+	display: inline-block;
+	padding:10px;
+	height: 7%;
+	width: 7%;
+	margin: auto;
+	list-style-type: none;
+}
+
+#phone {
+	position:relative;
+	display: inline-block;
+	padding:10px;
+	height: 7%;
+	width: 7%;
+	margin: auto;
+	list-style-type: none;
+}
+
+.projects {
+	list-style-type: none;
+	text-align: center;
+	display: inline;
+}
+
+/* footer */
+
+.footer {
+	max-width:960px;
+	text-align:center;
+	margin: 0 auto;
 }

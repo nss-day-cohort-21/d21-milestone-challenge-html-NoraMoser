@@ -2,11 +2,14 @@
 <html>
 <head>
 	<title>Nora's Portfolio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<h1>Nora Moser</h1>
-		<h2>Portfolio</h2>
+		<h2 class="h2">Portfolio</h2>
 	</header>
 	<img src="images/Nora.jpg">
 	<section>
@@ -14,8 +17,37 @@
 	</section>
 	<section>
 		<h3>Some things I like:</h3>
-		<nav><a href="http://www.lonelyplanet.com/"></a></nav>
+			<ul class="like">
+				<li><a href="http://www.lonelyplanet.com"><img src="images/world.jpg" alt="Lonely Planet Logo"></a></li>
+				<li class="expedia"><a href="http://www.expedia.com"><img src="images/expedia.jpg"></a></li>
+			</ul>
 	</section>
+	<section>
+		<h3>Future Projects</h3>
+			<ul class="projects">
+				<li><a href="#">Project 2</a></li>
+				<li><a href="#">Project 3</a></li>
+			</ul>
+	</section>
+	<section>
+		<article>
+			<h3>My Blog Posts</h3>
+		</article>
+		<p>Show blog posts here</p>
+	</section>
+	<footer>
+		<div class="footer">
+		<ul>
+			<li id="twitter"><a href="https://www.twitter.com"><img src="images/twitter.png"></a></li>
+			<li id="github"><a href="https://github.com/NoraMoser"><img src="images/github.png"></a></li>
+			<li id="fb"><a href="https://www.facebook.com/nora.moser.980">
+			<img src="images/fb-art.png" alt="Nora's Facebook">
+			</a></li>
+			<li id="email"><a href="https://gmail.com"><img src="images/gmail.png"></a></li>
+			<li id="phone"><a href="#"><img src="images/phone.png"></a></li>
+		</ul>
+		</div>
+	</footer>
 
 </body>
 </html>
